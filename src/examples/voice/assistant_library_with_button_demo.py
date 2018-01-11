@@ -28,6 +28,7 @@ import logging
 import sys
 import threading
 
+sys.path.append(os.path.realpath(os.path.join(__file__, '..', '..')) + '/src/')
 import aiy.assistant.auth_helpers
 import aiy.voicehat
 from google.assistant.library import Assistant

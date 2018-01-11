@@ -17,6 +17,7 @@
 
 import logging
 
+sys.path.append(os.path.realpath(os.path.join(__file__, '..', '..')) + '/src/')
 import aiy.assistant.grpc
 import aiy.audio
 import aiy.voicehat

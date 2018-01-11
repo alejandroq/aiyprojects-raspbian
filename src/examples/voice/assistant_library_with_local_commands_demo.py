@@ -28,6 +28,7 @@ import logging
 import subprocess
 import sys
 
+sys.path.append(os.path.realpath(os.path.join(__file__, '..', '..')) + '/src/')
 import aiy.assistant.auth_helpers
 import aiy.audio
 import aiy.voicehat

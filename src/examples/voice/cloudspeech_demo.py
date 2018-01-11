@@ -15,6 +15,7 @@
 
 """A demo of the Google CloudSpeech recognizer."""
 
+sys.path.append(os.path.realpath(os.path.join(__file__, '..', '..')) + '/src/')
 import aiy.audio
 import aiy.cloudspeech
 import aiy.voicehat
