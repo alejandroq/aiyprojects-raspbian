@@ -27,6 +27,7 @@ It is available for Raspberry Pi 2/3 only; Pi Zero is not supported.
 import logging
 import sys
 import threading
+import os
 
 sys.path.append(os.path.realpath(os.path.join(__file__, '..', '..')) + '/src/')
 import aiy.assistant.auth_helpers

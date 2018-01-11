@@ -16,6 +16,8 @@
 """A demo of the Google Assistant GRPC recognizer."""
 
 import logging
+import sys 
+import os
 
 sys.path.append(os.path.realpath(os.path.join(__file__, '..', '..')) + '/src/')
 import aiy.assistant.grpc
